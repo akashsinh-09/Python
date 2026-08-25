@@ -1,5 +1,0 @@
-print((11,12),type((11,12)))
-print([11,12],type([11,12]))
-print({11,12}),type({11,12})
-print({ "value1" :11, "value2" :12},type({ "value1" :11, "value2" :12}))
-print(float(11.17),type(11.17))
