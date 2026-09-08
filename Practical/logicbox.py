@@ -6,7 +6,7 @@ while True:
     print("2. Analyze Number")
     print("3. Exit\n")
 
-    choice = int(input("Enter your choice (1/2/3): "))
+    choice = int(input("Enter your choice (1/2/3):"))
 
     match choice:
         case 1:
@@ -39,7 +39,7 @@ while True:
                 case _:
                     print("Invalid pattern choice.")
         case 2:
-            start = int(input("Enter the start of the range: "))
+            start = int(input("\nEnter the start of the range: "))
             end = int(input("Enter the end of the range: "))
             for num in range(start, end + 1):
                 print(f"{num} is even." if num % 2 == 0 else f"{num} is odd.")
