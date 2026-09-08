@@ -2,7 +2,7 @@
 
 ##Features
 
--Generate different types of patterns.
+-Generate different types of patterns.<br>
 -Analyze numbers within a given range and identify whether a number is odd or even.
 
 
