@@ -23,7 +23,7 @@ while True:
             match choice_pattern:
                 case 1:
                     for i in range(rows):
-                        print("* " * rows)
+                        print("* " * rows)  
                 case 2:
                     for i in range(1, rows + 1):
                         print("* " * i)
