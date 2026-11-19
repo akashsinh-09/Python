@@ -4,8 +4,6 @@ def filter_values(*args):
     numbers = []
     
     for value in args:
-        
-        
         if type(value) == str:
             strings.append(value)
             print("The value is String:",value)

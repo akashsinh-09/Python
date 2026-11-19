@@ -13,6 +13,3 @@ def factorial(number):
     
 fact = factorial(number)
 print(f"The factorial of {number} is: {fact}")
-
-
-    
