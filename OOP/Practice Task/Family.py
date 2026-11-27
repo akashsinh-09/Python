@@ -5,7 +5,7 @@ class GrandFather:
     
     def grandfather_info(self):
         print("GrandFather Name:",self.grandfather)
-        print("Family:",self.family)
+        print("Family          :",self.family)
         
 class Father(GrandFather):
     def __init__(self, grandfather_name, family_name,father_name):
@@ -14,7 +14,7 @@ class Father(GrandFather):
     
     def father_info(self):
         self.grandfather_info()
-        print("Father Name:",self.fathername)
+        print("Father Name     :",self.fathername)
         
 class Child(Father):
     def __init__(self, grandfather_name, family_name, father_name,child_name):
@@ -23,7 +23,7 @@ class Child(Father):
         
     def family_tree(self):
         self.father_info()
-        print("Child Name:",self.childname)
+        print("Child Name      :",self.childname)
         
 child1=Child("Shivubha","Sodha","Narendrasinh","Akashsinh")
 
